@@ -13,9 +13,10 @@ Pre-req
    - python manage.py runserver 0.0.0.0:3001
 3) Start Frontend (port 3000)
    - cd personal-expense-tracker-181971-181982/expense_tracker_frontend
-   - cp .env.example .env
+   - cp .env.example .env  # provides REACT_APP_API_BASE=http://localhost:3001/api
    - npm install
    - npm start
+   - Access via http://localhost:3000 (preview URLs on port 3000 are also allowed in CORS)
 
 Steps
 A. Create a user (if not already)
