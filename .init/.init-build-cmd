@@ -1,0 +1,4 @@
+{
+    "command": "chmod +x startup.sh && sudo ./startup.sh &",
+    "working_directory": "/home/kavia/workspace/code-generation/personal-expense-tracker-181971-181981/expense_tracker_database"
+}
